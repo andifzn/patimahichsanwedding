@@ -413,7 +413,7 @@ body{
     }
 
     .about-us .main-about-us .about-bride .about-bride-text h3 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .about-us .main-about-us .about-bride .about-bride-text p {
@@ -444,13 +444,13 @@ body{
     }
 
     .about-us .main-about-us .about-groom .about-groom-text h5 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         text-align: end;
         margin-right: 15px;
     }
 
     .about-us .main-about-us .about-groom .about-groom-text p {
-        max-width: 90%;
+        max-width: 85%;
         margin-right: 15px;
         font-size: 0.8rem;
     }
