@@ -393,8 +393,8 @@ body{
 
     /* About The Bride Start */
     .about-us .main-about-us img {   
-        height: 250px;
-        width: 150px;
+        height: auto;
+        max-width: 150px;
     }
 
     .about-us .main-about-us .about-bride {
@@ -426,8 +426,8 @@ body{
     }
 
     .about-us .main-about-us .about-bride .social-media-bride img {
-        width: 25px;
-        height: 25px;
+        max-width: 25px;
+        height: auto;
     }
     /* About The Bride End */
 
@@ -462,8 +462,8 @@ body{
     }
 
     .about-us .main-about-us .about-groom .social-media-groom img {
-        width: 25px;
-        height: 25px;
+        max-width: 25px;
+        height: auto;
     }
     /* About Us Seciton End */
 
