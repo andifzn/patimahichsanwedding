@@ -398,7 +398,7 @@ body{
     }
 
     .about-us .main-about-us .about-bride {
-        margin: 130px 0 0 40px;
+        margin: 130px 0 0 15px;
     }
 
     .about-us .main-about-us .about-bride .about-bride-text {
@@ -434,24 +434,24 @@ body{
     /* About The Groom Start */
 
     .about-us .main-about-us .about-groom {
-        margin: 150px 40px 0 0;
+        margin: 150px 15px 0 0;
     }
 
     .about-us .main-about-us .about-groom .about-groom-text h4{
         font-size: 0.8rem;
-        margin-right: 20px;
+        margin-right: 15px;
         padding: 7px;
     }
 
     .about-us .main-about-us .about-groom .about-groom-text h5 {
         font-size: 1.8rem;
         text-align: end;
-        margin-right: 20px;
+        margin-right: 15px;
     }
 
     .about-us .main-about-us .about-groom .about-groom-text p {
         max-width: 90%;
-        margin-right: 20px;
+        margin-right: 15px;
         font-size: 0.8rem;
     }
 
