@@ -1,2 +1,0 @@
-# patimahichsanwedding
-wedding invitation
