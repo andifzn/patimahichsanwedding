@@ -2,7 +2,7 @@
     --bgPrimary :  #FBF6F2;
     --bgSecondary :  #161616;
     --bgThird : #5A3E36;
-    --shadow : 0 2px 2px rgba(0,0,0,0.5)
+    --shadow : 0 2px 2px rgba(0,0,0,0.5);
 }
 
 html, body{
@@ -72,7 +72,7 @@ html, body{
 .hero .main-hero h1 {
     font-size: 1.5rem; 
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -82,12 +82,13 @@ html, body{
     font-weight: 600; 
     letter-spacing: 4px; 
     line-height: 60px;
+    margin-bottom: 2rem;
 }
 
 .hero .main-hero p {
     font-size: 1.4rem;
     font-weight: 500;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* Countdown Start */
@@ -329,10 +330,77 @@ html, body{
 }
 /* About Us Seciton End */
 
-.location {
+/* Lover Story Section Start */
+
+.container-love-story {
     background-color: var(--bgThird);
-    height: 100vh;
+    height: auto;
+    padding: 4rem 0;
 }
+
+.love-story h1 {
+    position: relative;
+    color: var(--bgPrimary);
+    font-weight: 500;
+    font-family: 'Allura',cursive;
+    font-size: 3rem;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-shadow: var(--shadow);
+    
+}
+
+.timeline {
+    position: relative;
+    padding: 50px 0;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: #F5E1C8;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+}
+
+.timeline-item:nth-child(odd) {
+    text-align: left;
+    left: 23.8%;
+}
+
+.timeline-item:nth-child(even) {
+    text-align: right;
+    left: 50%;
+}
+
+.love-story .timeline h5 {
+    font-family: 'Satisfy',cursive;
+    color: var(--bgPrimary);
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.love-story .timeline p {
+    font-family: 'Lora',serif;
+}
+
+
+.timeline-card {
+    color: var(--bgPrimary);
+    max-width: 50%;
+}
+
+/* Love Story Section End */
 
 
 /* Ukuran Laptop */
@@ -342,8 +410,6 @@ html, body{
     }
     
 }
-
-
 
 /* Ukuran HP Kecil */
 @media screen and (max-width : 480px) {
@@ -387,8 +453,8 @@ html, body{
 
     /* About The Bride Start */
     .about-us .main-about-us .about-bride img {   
-        height: 230px;
-        width: 150px;
+        height: 260px;
+        width: 180px;
     }
 
     .about-us .main-about-us .about-bride {
@@ -450,8 +516,8 @@ html, body{
     }
 
     .about-us .main-about-us .about-groom img {   
-        height: 260px;
-        width: 150px;
+        height: 290px;
+        width: 180px;
     }
 
     .about-us .main-about-us .about-groom .social-media-groom {
@@ -466,5 +532,26 @@ html, body{
     }
     /* About Us Seciton End */
 
+    /* Timeline Section Start */
+    .timeline-item:nth-child(odd) {
+        left: 2.8% ;
+    }
+
+    .timeline-item:nth-child(even) {
+        left: 52%;
+    }
+
+    .love-story .timeline h5 {
+        font-size: 1.5rem;
+    }
+
+    .love-story .timeline p {
+        font-size: 0.7rem;
+    }
     
+    .timeline-card {
+        max-width: 90%;
+    }
+    /* TImeline Section End */
+
 }
