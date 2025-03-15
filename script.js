@@ -25,7 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
-                entry.target.classList.add("show");
+                entry.target.classList.add("show"); // Muncul saat masuk viewport
+            } else {
+                entry.target.classList.remove("show"); // Hilang saat keluar viewport
             }
         });
     }, { threshold: 0.02 });
@@ -33,41 +35,32 @@ document.addEventListener("DOMContentLoaded", function () {
     fadeElements.forEach((el) => observer.observe(el));
 });
 
+
 // right to left dan left to right
 document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.querySelectorAll(".hidden-right");
+    const elementsRight = document.querySelectorAll(".hidden-right");
+    const elementsLeft = document.querySelectorAll(".hidden-left");
 
-    const observer = new IntersectionObserver((entries, observer) => {
+    const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-                observer.unobserve(entry.target); // Hanya animasi sekali
+                entry.target.classList.add("show"); // Tambah class show saat masuk viewport
+            } else {
+                entry.target.classList.remove("show"); // Hapus class show saat keluar viewport
             }
         });
-    }, { threshold: 0.2 });
+    }, { threshold: 0.1});
 
-    elements.forEach(el => observer.observe(el));
+    elementsRight.forEach(el => observer.observe(el));
+    elementsLeft.forEach(el => observer.observe(el));
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.querySelectorAll(".hidden-left");
-
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-                observer.unobserve(entry.target); // Hanya animasi sekali
-            }
-        });
-    }, { threshold: 0.2 });
-
-    elements.forEach(el => observer.observe(el));
-});
 // Fade In Effect End
+
 
 document.getElementById("startButton").addEventListener("click", function () {
     let audio = document.getElementById("audioPlayer");
-
+    
     // Memutar audio
     audio.play();
 });
