@@ -578,7 +578,7 @@ html, body{
 
     /* Timeline Section Start */
     .container-love-story {
-        height: 55%;
+        height: auto;
     }
 
     .timeline-item:nth-child(odd) {
@@ -606,7 +606,7 @@ html, body{
     .timeline-image {
         margin-bottom: 8rem;
     }
-    
+
     .timeline-image img {
         height: 200px;
         width: 200px;
