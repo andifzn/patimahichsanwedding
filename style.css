@@ -618,16 +618,17 @@ html, body{
     }
 
     .timeline-image .image-two {
+        top: 29.5%;
         left: 4.8%;
     }
 
     .timeline-image .image-three {
-        top: 53.5%;
+        top: 51%;
         left: 55%;
     }
     
     .timeline-image .image-four {
-        top: 79%;
+        top: 75%;
         left: 4.8%;
     }
     /* TImeline Section End */
