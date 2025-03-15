@@ -15,6 +15,8 @@ const x = setInterval(() => {
     
 },1000);
 
+
+
 // Fade In Effect Start
 // faed in
 document.addEventListener("DOMContentLoaded", function () {
@@ -61,8 +63,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     elements.forEach(el => observer.observe(el));
 });
-
 // Fade In Effect End
 
+document.getElementById("startButton").addEventListener("click", function () {
+    let audio = document.getElementById("audioPlayer");
 
-
+    // Memutar audio
+    audio.play();
+});
