@@ -155,7 +155,7 @@ html, body{
 
 .about-us h1 {
     font-family: "Allura", cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     position: relative;
 }
@@ -343,11 +343,10 @@ html, body{
     color: var(--bgPrimary);
     font-weight: 500;
     font-family: 'Allura',cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     word-spacing: 5px;
     letter-spacing: 1px;
-    text-shadow: var(--shadow);
-    
+    text-shadow: var(--shadow); 
 }
 
 .timeline {
@@ -453,6 +452,51 @@ html, body{
 }
 
 /* Love Story Section End */
+
+/* Gallery Section Star */
+.container-gallery {
+    background-color: #A3A380;
+    height: auto;
+}
+
+.gallery-main {
+    padding: 2rem 0;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+.gallery-main h1 {
+    position: relative;
+    text-align: center;
+    color: var(--bgPrimary);
+    font-weight: 600;
+    font-family: 'Allura',cursive;
+    font-size: 4rem;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-shadow: var(--shadow); 
+    padding: 5rem 0;
+}
+
+.gallery-main .gallery-photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+.gallery-main .gallery-photo img {
+    height: 600px;
+    width: 400px;
+}
+
+.gallery-main .gallery-photo .one {
+    height: 400px;
+    width: 400px;
+}
+
+/* Gallery Section End */
 
 
 /* Ukuran Laptop */
