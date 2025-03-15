@@ -613,8 +613,8 @@ html, body{
     }
 
     .timeline-image .image-one {
-        top: 2.5%;
-        left: 54%;
+        top: 5.5%;
+        left: 55%;
     }
 
     .timeline-image .image-two {
@@ -622,12 +622,12 @@ html, body{
     }
 
     .timeline-image .image-three {
-        top: 48.5%;
-        left: 54%;
+        top: 52.5%;
+        left: 55%;
     }
     
     .timeline-image .image-four {
-        top: 75%;
+        top: 79%;
         left: 3.8%;
     }
     /* TImeline Section End */
