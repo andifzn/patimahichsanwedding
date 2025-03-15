@@ -780,8 +780,22 @@ html, body{
     /* TImeline Section End */
 
     /* Details Wedding Section Start */
+    .main-details h1 {
+        font-size: 2.5rem;
+    }
+
     .details-card {
+        justify-content: center;
         width: 100%;
+        padding: 1rem;
+    }
+
+    .details-card h2 {
+        font-size: 1.3rem;
+    }
+
+    .details-card {
+        font-size: 0.8rem;
     }
 
     .details-items .details-card .button-card {
