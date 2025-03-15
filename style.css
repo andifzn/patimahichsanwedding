@@ -391,7 +391,15 @@ html, body{
     color: var(--bgPrimary);
     font-size: 2.5rem;
     letter-spacing: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.love-story .timeline h6 {
+    font-family: 'Lora', cursive;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+
 }
 
 .love-story .timeline p {
@@ -595,6 +603,9 @@ html, body{
         font-size: 1.5rem;
     }
 
+    .love-story .timeline h6 {
+        font-size: 0.9rem;
+    }
     .love-story .timeline p {
         font-size: 0.7rem;
     }
@@ -618,17 +629,17 @@ html, body{
     }
 
     .timeline-image .image-two {
-        top: 29.5%;
+        top: 30.2%;
         left: 4.8%;
     }
 
     .timeline-image .image-three {
-        top: 51%;
+        top: 52%;
         left: 55%;
     }
     
     .timeline-image .image-four {
-        top: 75%;
+        top: 77%;
         left: 4.8%;
     }
     /* TImeline Section End */
