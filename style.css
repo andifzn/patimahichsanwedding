@@ -608,27 +608,27 @@ html, body{
     }
 
     .timeline-image img {
-        height: 100px;
-        width: 100px;
+        height: 135px;
+        width: 135px;
     }
 
     .timeline-image .image-one {
-        top: 5.5%;
-        left: 55%;
+        top: 6.5%;
+        left: 56%;
     }
 
     .timeline-image .image-two {
-        left: 3.8%;
+        left: 4.8%;
     }
 
     .timeline-image .image-three {
-        top: 52.5%;
+        top: 53.5%;
         left: 55%;
     }
     
     .timeline-image .image-four {
         top: 79%;
-        left: 3.8%;
+        left: 4.8%;
     }
     /* TImeline Section End */
 
