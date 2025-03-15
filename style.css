@@ -531,7 +531,7 @@ html, body{
     .hero .main-hero .countdown .timer {
         font-size: 1.3rem;
         border: 2px solid var(--bgPrimary);
-        padding: 8px 23px 18px 23px;
+        padding: 8px 20px 18px 20px;
         margin-bottom: 10px;
         text-align: center;
         border-radius: 20px;
