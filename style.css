@@ -7,15 +7,15 @@
 
 html, body{
     overflow-x: hidden;
-    height: 500vh;
+    height: auto;
     scroll-behavior: smooth;
 }
 
 /* transition effect start */
 .fade-in {
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 .fade-in.show {
@@ -26,29 +26,35 @@ html, body{
 .hidden-right {
     opacity: 0;
     transform: translateX(100px);
-    transition: all 1s ease-in-out;
+    transition: all 2s ease-in-out;
     -webkit-transform: translateX(100px);
     -moz-transform: translateX(100px);
     -ms-transform: translateX(100px);
     -o-transform: translateX(100px);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
 }
 
 .hidden-left {
     opacity: 0;
     transform: translateX(-10px);
-    transition: all 1s ease-in-out;
+    transition: all 2s ease-in-out;
     -webkit-transform: translateX(-100px);
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
 }
 
 .show {
     opacity: 1;
     transform: translateX(0);
 }
-
-/* Transition Effect End */
 
 
 /* Hero Section Start */
@@ -69,10 +75,11 @@ html, body{
     max-width: 80%;
 }
 
+
 .hero .main-hero h1 {
     font-size: 1.5rem; 
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin: 3rem auto;
 
 }
 
@@ -495,9 +502,91 @@ html, body{
     height: 400px;
     width: 400px;
 }
-
-
 /* Gallery Section End */
+
+/* Details Wedding Section Start */
+.details-container {
+    font-family: 'Montserrat';
+    height: auto;
+    background-color: var(--bgPrimary);
+    padding: 3rem 0;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+
+.main-details h1 {
+    position: relative;
+    text-align: center;
+    color: var(--bgThird);
+    font-weight: 600;
+    font-family: 'Allura',cursive;
+    font-size: 4rem;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    text-shadow: var(--shadow); 
+}
+
+.details-items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.details-card {
+    border: 2px solid var(--bgSecondary);
+    background-color: #F5EFE7;
+    width: 35%;
+    height: auto;
+    padding: 3rem;
+    margin: 4rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+}
+
+.details-card:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+
+.details-card h2 {
+    font-family: 'Great Vibes';
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin: auto 10px;
+    word-spacing: 10px;
+}
+
+.details-items .details-card a {
+    text-decoration: none;
+    background-color: #a87c6f;
+    color: var(--bgPrimary);
+    padding: 10px 22px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.details-items .details-card a:hover {
+    background-color: #8d6457;
+    color: var(--bgPrimary);
+    padding: 14px 26px;
+}
+
+
+
+/* Details Wedding Section End */
 
 
 /* Ukuran Laptop */
@@ -632,6 +721,7 @@ html, body{
     /* Timeline Section Start */
     .container-love-story {
         height: auto;
+        overflow: hidden;
     }
 
     .timeline-item:nth-child(odd) {
@@ -688,5 +778,34 @@ html, body{
         left: 4.8%;
     }
     /* TImeline Section End */
+
+    /* Details Wedding Section Start */
+    .details-card {
+        width: 100%;
+    }
+
+    .details-items .details-card .button-card {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .details-items .details-card a {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.5s;
+        width: fit-content;
+        
+    }
+    
+    .details-items .details-card a:hover {
+        background-color: #8d6457;
+        color: var(--bgPrimary);
+        padding: 9px 21px;
+    }
+
+    /* Details Wedding Section End */
 
 }
