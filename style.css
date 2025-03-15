@@ -796,6 +796,7 @@ html, body{
 
     .details-card {
         font-size: 0.8rem;
+        margin: 1.5rem 20px;
     }
 
     .details-items .details-card .button-card {
