@@ -37,7 +37,7 @@ html, body{
     opacity: 0;
     transform: translateX(-10px);
     transition: all 1s ease-in-out;
-    -webkit-transform: translateX(-10px);
+    -webkit-transform: translateX(-100px);
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
@@ -372,15 +372,19 @@ html, body{
     padding: 20px;
 }
 
+
 .timeline-item:nth-child(odd) {
     text-align: left;
-    left: 23.8%;
+    left: 31.8%;
+    margin-bottom: 15rem;
 }
 
 .timeline-item:nth-child(even) {
     text-align: right;
-    left: 50%;
+    left: 51.6%;
+    margin-bottom: 15rem;
 }
+
 
 .love-story .timeline h5 {
     font-family: 'Satisfy',cursive;
@@ -397,7 +401,47 @@ html, body{
 
 .timeline-card {
     color: var(--bgPrimary);
-    max-width: 50%;
+    max-width: 31%;
+}
+
+.timeline-image {
+    margin-bottom: 20rem;
+}
+
+
+.timeline-image img {
+    border-radius: 12000px;
+    border: 2px solid var(--bgPrimary); 
+    padding: 10px;
+    height: 280px;
+    width: 280px;
+    -webkit-border-radius: 12000px;
+    -moz-border-radius: 12000px;
+    -ms-border-radius: 12000px;
+    -o-border-radius: 12000px;
+}
+
+.timeline-image .image-one {
+    position: absolute;
+    top: 2%;
+    left: 53%;
+}
+
+.timeline-image .image-two {
+    position: absolute;
+    left: 31.8%;
+}
+
+.timeline-image .image-three {
+    position: absolute;
+    top: 47.6%;
+    left: 53%;
+}
+
+.timeline-image .image-four {
+    position: absolute;
+    top: 73.8%;
+    left: 31.8%;
 }
 
 /* Love Story Section End */
@@ -435,7 +479,7 @@ html, body{
     .hero .main-hero .countdown .timer {
         font-size: 1.3rem;
         border: 2px solid var(--bgPrimary);
-        padding: 10px 25px 20px 25px;
+        padding: 8px 23px 18px 23px;
         margin-bottom: 10px;
         text-align: center;
         border-radius: 20px;
@@ -533,12 +577,18 @@ html, body{
     /* About Us Seciton End */
 
     /* Timeline Section Start */
+    .container-love-story {
+        height: 55%;
+    }
+
     .timeline-item:nth-child(odd) {
         left: 2.8% ;
+        margin-bottom: 8rem;
     }
 
     .timeline-item:nth-child(even) {
         left: 52%;
+        margin-bottom: 8rem;
     }
 
     .love-story .timeline h5 {
@@ -551,6 +601,34 @@ html, body{
     
     .timeline-card {
         max-width: 90%;
+    }
+
+    .timeline-image {
+        margin-bottom: 8rem;
+    }
+    
+    .timeline-image img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .timeline-image .image-one {
+        top: 2.5%;
+        left: 54%;
+    }
+
+    .timeline-image .image-two {
+        left: 3.8%;
+    }
+
+    .timeline-image .image-three {
+        top: 48.5%;
+        left: 54%;
+    }
+    
+    .timeline-image .image-four {
+        top: 75%;
+        left: 3.8%;
     }
     /* TImeline Section End */
 
