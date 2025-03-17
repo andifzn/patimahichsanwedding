@@ -507,7 +507,7 @@ html, body{
 /* Details Wedding Section Start */
 .details-container {
     font-family: 'Montserrat';
-    height: 100vh;
+    height: auto;
     background-color: var(--bgPrimary);
     padding: 3rem 0;
     font-weight: 400;
@@ -656,6 +656,10 @@ html, body{
     -moz-transform: scale(1.02);
     -ms-transform: scale(1.02);
     -o-transform: scale(1.02);
+}
+
+.gift-card button {
+    background-color: #D4A373;
 }
 
 .gift-card img {
@@ -946,12 +950,22 @@ html, body{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 1.5rem 0;
         
     }
 
     .gift-card img {
+        margin: auto 1rem;
         width: 80px;
         height: 30px;
+    }
+
+    .gift-card h2 {
+        font-size: 1rem;
+    }
+
+    .card-text p {
+        font-size: 0.7rem;
     }
 
     /* Gift Section End */
