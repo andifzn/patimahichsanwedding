@@ -1158,6 +1158,7 @@ html, body{
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        padding: 0 2rem;
     }
 
     .right-side a {
