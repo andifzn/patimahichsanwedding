@@ -64,3 +64,10 @@ document.getElementById("startButton").addEventListener("click", function () {
     // Memutar audio
     audio.play();
 });
+
+// Gift Card Text
+function copyRekening(id) {
+    const rekening = document.getElementById(id).innerText;
+    navigator.clipboard.writeText(rekening);
+    alert("Nomor rekening disalin: " + rekening);
+}
