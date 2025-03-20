@@ -26,29 +26,13 @@ html, body{
 .hidden-right {
     opacity: 0;
     transform: translateX(100px);
-    transition: all 2s ease-in-out;
-    -webkit-transform: translateX(100px);
-    -moz-transform: translateX(100px);
-    -ms-transform: translateX(100px);
-    -o-transform: translateX(100px);
-    -webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
-    -o-transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .hidden-left {
     opacity: 0;
     transform: translateX(-10px);
-    transition: all 2s ease-in-out;
-    -webkit-transform: translateX(-100px);
-    -moz-transform: translateX(-10px);
-    -ms-transform: translateX(-10px);
-    -o-transform: translateX(-10px);
-    -webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
-    -o-transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .show {
@@ -80,7 +64,6 @@ html, body{
     font-size: 1.5rem; 
     font-weight: 600;
     margin: 3rem auto;
-
 }
 
 .hero .main-hero h2 {
@@ -115,10 +98,6 @@ html, body{
     border: 2px solid var(--bgPrimary);
     padding: 10px 30px 25px;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
     text-align: center;
 }
 /* countdown End */
@@ -134,15 +113,7 @@ html, body{
     text-shadow: none;
     text-decoration: none;
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
     transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
 
 .hero .main-hero a:hover {
@@ -176,10 +147,6 @@ html, body{
     bottom: -1px;
     left: 50%;
     transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
 }
 
 /* About The Bride Start */
@@ -188,10 +155,6 @@ html, body{
     box-shadow: var(--shadow);
     height: 450px;
     width: 300px;
-    -webkit-border-radius:0 30px 30px 30px ;
-    -moz-border-radius:0 30px 30px 30px ;
-    -ms-border-radius:0 30px 30px 30px ;
-    -o-border-radius:0 30px 30px 30px ;
 }
 
 .about-us .main-about-us .about-bride {
@@ -200,10 +163,10 @@ html, body{
 }
 
 .about-us .main-about-us .about-bride .about-bride-text {
-    padding: 60px 0 0 80px;
+    padding: 60px 0 0 60px;
     position: relative;
+    box-sizing: border-box;
 }
-
 
 .about-us .main-about-us .about-bride .about-bride-text h2 {
     font-family: 'Open Sans';
@@ -215,10 +178,6 @@ html, body{
     margin-bottom: 25px;
     text-align: center;
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
 }
 
 .about-us .main-about-us .about-bride .about-bride-text h3 {
@@ -238,7 +197,6 @@ html, body{
     display: flex;
     gap: 15px;
     margin-top: 25px;
-
 }
 
 .about-us .main-about-us .about-bride .social-media-bride img {
@@ -246,10 +204,6 @@ html, body{
     height: 30px;
     border-radius: 0;
     box-shadow: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
 }
 /* About The Bride End */
 
@@ -280,10 +234,6 @@ html, body{
     margin-bottom: 25px;
     text-align: center;
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
 }
 
 .about-us .main-about-us .about-groom .about-groom-text h5 {
@@ -309,10 +259,6 @@ html, body{
     box-shadow: var(--shadow);
     height: 450px;
     width: 300px;
-    -webkit-border-radius: 30px 0 30px 30px ;
-    -moz-border-radius: 30px 0 30px 30px ;
-    -ms-border-radius: 30px 0 30px 30px ;
-    -o-border-radius: 30px 0 30px 30px ;
 }
 
 .about-us .main-about-us .about-groom .social-media-groom {
@@ -322,7 +268,6 @@ html, body{
     justify-content: flex-end;
     margin-left: 0;
     margin-right: 80px;
-
 }
 
 .about-us .main-about-us .about-groom .social-media-groom img {
@@ -330,15 +275,10 @@ html, body{
     height: 30px;
     border-radius: 0;
     box-shadow: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
 }
 /* About Us Seciton End */
 
 /* Lover Story Section Start */
-
 .container-love-story {
     background-color: var(--bgThird);
     height: auto;
@@ -405,13 +345,11 @@ html, body{
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 1.2rem;
-
 }
 
 .love-story .timeline p {
     font-family: 'Lora',serif;
 }
-
 
 .timeline-card {
     color: var(--bgPrimary);
@@ -422,17 +360,12 @@ html, body{
     margin-bottom: 20rem;
 }
 
-
 .timeline-image img {
     border-radius: 12000px;
     border: 2px solid var(--bgPrimary); 
     padding: 10px;
     height: 280px;
     width: 280px;
-    -webkit-border-radius: 12000px;
-    -moz-border-radius: 12000px;
-    -ms-border-radius: 12000px;
-    -o-border-radius: 12000px;
 }
 
 .timeline-image .image-one {
@@ -584,6 +517,7 @@ html, body{
     padding: 4rem 0;
     color: var(--bgSecondary);
     font-weight: 400;
+    overflow: hidden;
 }
 
 .gift-container p {
@@ -642,8 +576,9 @@ html, body{
 
 .gift-card {
     padding: 2rem 0;
+    box-sizing: border-box;
     display: flex;
-    width: 35%;
+    width: 40%;
     background-color: var(--bgPrimary);
     border-radius: 15px;
     transition: 0.5s;
@@ -652,10 +587,6 @@ html, body{
 
 .gift-card:hover {
     transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    -o-transform: scale(1.02);
 }
 
 .gift-card button {
@@ -673,19 +604,15 @@ html, body{
     font-size: 0.9rem;
     line-height: 15px;
     text-align: left;
-
 }
 
 .card-text span {
     letter-spacing: 2px;
     text-shadow: var(--shadow);
 }
-
-
 /* gift Section End */
 
 /* Footer Section Start' */
-
 .contact-container {
     width: 100%;
     height: auto;
@@ -721,22 +648,13 @@ html, body{
     padding: 10px 30px 15px 30px;
     box-shadow: var(--shadow);
     border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
     transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
 }
 
 .nav-contact a:hover {
     cursor: pointer;
     padding: 15px 35px 20px 35px;
     background-color: #FF5C5C;
-
 }
 
 
@@ -787,10 +705,6 @@ html, body{
     height: 1px;
     background-color: #FF9F45;
     /*Warnakuning*/transition: width 0.3s ease-in-out;
-    -webkit-transition: width 0.3s ease-in-out;
-    -moz-transition: width 0.3s ease-in-out;
-    -ms-transition: width 0.3s ease-in-out;
-    -o-transition: width 0.3s ease-in-out;
 }
 
 .right-side a:hover {
@@ -841,15 +755,290 @@ html, body{
 
 /* Ukuran Laptop */
 @media screen and (max-width: 1366px) {
+
+    .main-hero {
+        padding: 0 0 3.5rem 0;
+    }
+
     .about-us {
         height: 40%;
     }
+
+    /* Love Story Section Start */
+
+    .container-love-story {
+        padding: 2.5rem 0;
+    }
+
+    .timeline-item {
+        min-width: 70%;
+    }
+
+    .timeline-item:nth-child(odd) {
+        text-align: left;
+        left: 20.8%;
+        margin-bottom: 15rem;
+    }
+
+    .timeline-item:nth-child(even) {
+        text-align: right;
+        left: 55.6%;
+        margin-bottom: 15rem;
+    }
+
+    .timeline-image .image-one {
+        position: absolute;
+        top: 2%;
+        left: 59%;
+    }
+
+    .timeline-image .image-two {
+        position: absolute;
+        left: 18.8%;
+    }
+
+    .timeline-image .image-three {
+        position: absolute;
+        top: 48.6%;
+        left: 59%;
+    }
+
+    .timeline-image .image-four {
+        position: absolute;
+        top: 73.8%;
+        left: 18.8%;
+    }
+
+    /* Love Story Section End */
+
+    /* Gallery Section Start */
+    .gallery-main .gallery-photo img {
+        height: 400px;
+        width: 260px;
+    }
+
+    .gallery-main .gallery-photo .one {
+        height: 260px;
+        width: 260px;
+    }
+    /* Gallery Section End */
+
+
+    /* Details Section Start */
+    .details-items .details-card a {
+        font-size: 0.8rem;
+        padding: 10px 15px;
+        width: fit-content;     
+    }
+
+    .details-items .details-card .button-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Details Section End */
+
+    /* Gift Section Start */
+    .gift-card {
+        box-sizing: border-box;
+    }
+
+    .gift-card img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .card-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .card-text p {
+        font-size: 0.7rem;
+    }
+    /* Gift Card Section End */
     
 }
 
+/* Ukuran Tablet (Landscape) */
+@media screen and (max-width: 1024px) {
+    .about-us h1 {
+        font-size: 3rem;
+    }
+
+    .about-us .main-about-us img {
+        height: 430px;
+        width: 280px;
+    }
+
+    .about-us .main-about-us .about-bride {
+        margin: 70px 0 0 80px;
+    }
+
+    .about-us .main-about-us .about-bride .about-bride-text h2 {
+        width: fit-content;
+        font-size: 0.8rem;
+    }
+
+    .about-us .main-about-us .about-bride .about-bride-text h3 {
+        font-size: 2rem;
+    }
+
+    .about-us .main-about-us .about-bride .about-bride-text p {
+        font-size: 1rem;
+    }
+
+    .about-us .main-about-us .about-bride .social-media-bride img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* About Groom */
+    .about-us .main-about-us .about-groom {
+        margin: 150px 80px;
+    }
+
+    .about-us .main-about-us .about-groom .about-groom-text h4 {
+        margin-right: 60px;
+        font-size: 0.8rem;
+    }
+
+    .about-us .main-about-us .about-groom .about-groom-text h5 {
+        font-size: 2rem;
+        margin-right: 60px;
+    }
+
+    .about-us .main-about-us .about-groom .about-groom-text p {
+        margin-right: 60px;
+    }
+    
+
+    .about-us .main-about-us .about-groom img {
+        height: 430px;
+        width: 280px;
+    }
+
+    .about-us .main-about-us .about-groom .social-media-groom {
+        margin-right: 60px;
+    }
+    /* About Us Section End */
+
+    /* Love Story Section Start */
+    .love-story .timeline h5 {
+        font-size: 2rem;
+    }
+
+    .love-story .timeline h6 {
+        font-size: 1rem;
+    }
+
+    .love-story .timeline p {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .timeline-item:nth-child(odd) {
+        left: 7.8%;
+    }
+
+    .timeline-item:nth-child(event) {
+        left: 73.6%;
+    }
+
+    .timeline-card {
+        width: 50%;
+    }
+
+    .timeline-image .image-one {
+        position: absolute;
+        top: 2%;
+        left: 59.8%;
+    }
+
+    .timeline-image .image-two {
+        position: absolute;
+        top: 27.4%;
+        left: 11.8%;
+    }
+
+    .timeline-image .image-three {
+        position: absolute;
+        top: 48.6%;
+        left: 59.8%;
+    }
+
+    .timeline-image .image-four {
+        position: absolute;
+        top: 73.8%;
+        left: 11.8%;
+    }
+    /* Love Story Section End */
+
+    /* Gallery Section Start */
+    .gallery-main .gallery-photo img {
+        height: 280px;
+        width: 180px;
+    }
+
+    .gallery-main .gallery-photo .one {
+        height: 180px;
+        width: 180px;
+    }
+    /* Gallery Section End */
+
+    /* Details Wedding Section Start */
+    .details-items {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .details-card {
+        width: 80%;
+        min-width: 50%;
+    }
+    /* Details Wedding Section End */
+
+    /* Gift Section Start */
+    .gift-main {
+        width: 90%;
+        padding: 5rem 2rem;
+    }
+
+    .gift-card {
+        width: 65%;
+        min-width: 50%;
+    }
+    /* Gift Card Section End */
+
+    /* Footer Section Start */
+    .nav-contact h1 {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .nav-contact a {
+        font-size: 1rem;
+        padding: 8px 28px 13px 28px;
+    }
+
+    .nav-contact a:hover {
+        padding: 10px 30px 15px 30px;
+    }
+
+    .left-side h2 {
+        font-size: 1.2rem;
+    }
+    
+    .right-side a {
+        font-size: 1.2rem;
+    }
+
+    .right-side p {
+        font-size: 0.9rem;
+    }    
+}
+
+
 /* Ukuran HP Kecil */
 @media screen and (max-width : 480px) {
-
     .hero .main-hero h1{
         font-size: 1rem;
     }
@@ -875,10 +1064,6 @@ html, body{
         margin-bottom: 10px;
         text-align: center;
         border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
     }
 /* countdown End */
 
@@ -900,7 +1085,6 @@ html, body{
     .about-us .main-about-us .about-bride .about-bride-text {
         padding: 0 0 0 20px;
     }
-
 
     .about-us .main-about-us .about-bride .about-bride-text h2 {
         font-size: 0.8rem;
@@ -928,7 +1112,6 @@ html, body{
     /* About The Bride End */
 
     /* About The Groom Start */
-
     .about-us .main-about-us .about-groom {
         margin: 150px 15px 0 0;
     }
@@ -959,7 +1142,6 @@ html, body{
     .about-us .main-about-us .about-groom .social-media-groom {
         gap: 10px;
         margin-right: 20px;
-
     }
 
     .about-us .main-about-us .about-groom .social-media-groom img {
@@ -991,10 +1173,11 @@ html, body{
     .love-story .timeline h6 {
         font-size: 0.9rem;
     }
+
     .love-story .timeline p {
         font-size: 0.7rem;
     }
-    
+
     .timeline-card {
         max-width: 90%;
     }
@@ -1022,7 +1205,7 @@ html, body{
         top: 52%;
         left: 55%;
     }
-    
+
     .timeline-image .image-four {
         top: 77%;
         left: 4.8%;
@@ -1064,7 +1247,7 @@ html, body{
         width: fit-content;
         
     }
-    
+
     .details-items .details-card a:hover {
         background-color: #8d6457;
         color: var(--bgPrimary);
@@ -1086,11 +1269,7 @@ html, body{
         align-items: center;
         width: 100%;
         padding: 2rem;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-}
+    }
 
     .gift-card {
         width: 100%;
@@ -1098,7 +1277,6 @@ html, body{
         justify-content: center;
         align-items: center;
         padding: 1.5rem 0;
-        
     }
 
     .gift-card img {
@@ -1169,7 +1347,7 @@ html, body{
     .right-side p {
         font-size: 0.7rem;
     }
-    
+
     .content {
         max-width: 25%;
     }
