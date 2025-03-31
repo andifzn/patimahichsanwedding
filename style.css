@@ -441,11 +441,14 @@ html, body{
 /* Details Wedding Section Start */
 .details-container {
     font-family: 'Montserrat';
-    height: auto;
+    height: 100vh;
     background-color: var(--bgPrimary);
     padding: 3rem 0;
     font-weight: 400;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -826,6 +829,10 @@ html, body{
 
 
     /* Details Section Start */
+    .details-container {
+        height: auto;
+    }
+
     .details-items .details-card a {
         font-size: 0.8rem;
         padding: 10px 15px;
